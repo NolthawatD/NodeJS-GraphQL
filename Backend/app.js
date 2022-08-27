@@ -107,7 +107,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    'mongodb+srv://nongnol:password1234@nodeexpressprojects.dbhfh.mongodb.net/messages?retryWrites=true&w=majority'
+    'mongodb+srv://user:password@nodeexpressprojects.dbhfh.mongodb.net/messages?retryWrites=true&w=majority'
   )
   .then((result) => {
     app.listen(8080);
